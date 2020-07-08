@@ -1,0 +1,6 @@
+<h1>Matching Movies</h1>
+<% formattedbody["Search"].forEach(function(movie){ %>
+<li><%= movie["Title"] %> - <%= movie["Year"] %></li>
+<% });%>
+
+<p><a href="/">Search Again</a></p>
