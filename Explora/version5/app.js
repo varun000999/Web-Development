@@ -20,7 +20,7 @@ var commentRoutes    = require("./routes/comments"),//functions are divided in r
     indexRoutes      = require("./routes/index")
     
 
-mongoose.connect("mongodb://localhost/yelp_camp_version5");
+mongoose.connect("mongodb://localhost/Courser_version_5");
 
 app.set("view engine", "ejs");
 app.use(bodyparser.urlencoded({extended: true}));
