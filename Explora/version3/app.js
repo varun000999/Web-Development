@@ -11,7 +11,7 @@ mongoose.set('useUnifiedTopology', true);
 
 
 
-mongoose.connect("mongodb://localhost/yelp_camp_version3");
+mongoose.connect("mongodb://localhost/Explora_version_3");
 
 
 
