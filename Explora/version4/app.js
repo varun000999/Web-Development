@@ -28,7 +28,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(require("express-session")({
     secret: "This version by version is such a mess",
     resave: false,
-    saveUninitialized: false
+    saveUninitialized: false 
 }));
 app.use(passport.initialize());
 app.use(passport.session());
